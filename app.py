@@ -3,8 +3,8 @@ import numpy as np
 import streamlit as st
 import pickle
 
-model = pickle.load(open('trained_rf (1).pkl', 'rb'))
-scaler = pickle.load(open('scaler (1).pkl', 'rb'))
+model = pickle.load(open('trained_rf.pkl', 'rb'))
+scaler = pickle.load(open('scaler.pkl', 'rb'))
 st.title('Prediksi Hujan Besok')
 st.write('Masukkan data cuaca hari ini untuk memprediksi apakah akan hujan besok atau tidak.')
 
